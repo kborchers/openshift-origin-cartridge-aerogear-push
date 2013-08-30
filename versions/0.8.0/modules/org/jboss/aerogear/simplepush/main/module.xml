@@ -20,15 +20,19 @@
 <module xmlns="urn:jboss:module:1.1" name="org.jboss.aerogear.simplepush">
 
     <resources>
-        <resource-root path="aerogear-simplepush-server-api-0.8.0.jar"/>
-        <resource-root path="aerogear-simplepush-server-core-0.8.0.jar"/>
-        <resource-root path="aerogear-simplepush-server-netty-0.8.0.jar"/>
-        <resource-root path="aerogear-simplepush-protocol-0.8.0.jar"/>
-        <resource-root path="aerogear-simplepush-server-wildfly-0.8.0.jar"/>
+        <resource-root path="aerogear-simplepush-server-api-0.9.0-SNAPSHOT.jar"/>
+        <resource-root path="aerogear-simplepush-server-core-0.9.0-SNAPSHOT.jar"/>
+        <resource-root path="aerogear-simplepush-server-netty-0.9.0-SNAPSHOT.jar"/>
+        <resource-root path="aerogear-simplepush-protocol-0.9.0-SNAPSHOT.jar"/>
+        <resource-root path="aerogear-simplepush-server-wildfly-0.9.0-SNAPSHOT.jar"/>
         <resource-root path="jackson-core-asl-1.9.2.jar"/>
         <resource-root path="jackson-mapper-asl-1.9.2.jar"/>
         <resource-root path="commons-codec-1.8.jar"/>
-        <resource-root path="netty-all-4.0.5.Final-SNAPSHOT.jar"/>
+        <resource-root path="netty-all-4.0.8.Final.jar"/>
+        
+        <!-- The following resource should be replaced by netty-codec-sockjs once it is released -->
+        <resource-root path="aerogear-netty-codec-sockjs-0.9.0-SNAPSHOT.jar"/>
+        
     </resources>
 
     <dependencies>
